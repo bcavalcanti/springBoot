@@ -1,0 +1,4 @@
+type Telefone {
+	telefone: String,
+	tags: String
+}

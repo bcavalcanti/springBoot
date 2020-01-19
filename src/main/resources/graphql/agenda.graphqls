@@ -1,0 +1,10 @@
+type Agenda {
+	id: ID!,
+	descricao: String!,
+	telefones: [Telefone]
+}
+
+type Query {
+	agenda(id: ID):Agenda
+}
+
